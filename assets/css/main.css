@@ -23,6 +23,16 @@
 }
 
 .foto1 img {
+	width: 100%;
+	height: auto;
+}
+
+.foto2 img {
+	width: 100%;
+	height: auto;
+}
+
+.foto1 img {
 	width: 200%; /* Define el ancho de la foto */
     height: auto; /* Mantiene la proporción original de la imagen */
     border: 2px solid black; /* Agrega un borde sólido de 2px de grosor y color negro */
@@ -742,6 +752,22 @@
 		}
 
 			.image.fit img {
+				width: 98%;
+			}
+		.foto1 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+			.foto1 img {
+				width: 98%;
+			}
+		.foto2 {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+			.foto2 img {
 				width: 98%;
 			}
 
